@@ -15,9 +15,9 @@ variables:
   dockerfilePath: 'dockerfile'  
   # Environment name
   # should we not have a way to mention this like $(DeployEnvironmentName) ?
-  deployEnvironmentName: 'Madhuv-Play.default'
+  deployEnvironmentName: 'Madhuv-Play.log'
   # Kubernetes Namespace
-  k8sNamespace: 'default'
+  k8sNamespace: 'log'
   # kubernetes manifest file
   k8sManifests: 'AKSDeployment.yaml'
   # Agent Pool Name
