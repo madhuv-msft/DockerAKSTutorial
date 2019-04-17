@@ -8,7 +8,7 @@ variables:
   # Container registry service connection established during pipeline creation - Docker Hub/ACR/...
   dockerRegistryServiceConnection: 'bfcbc9a8-079f-469d-889b-db8b10b4eb59'
   # Kubernetes service connection
-  kubernetesServiceConnection: '5f552435-78fd-4ba0-b3ce-9d63384ca426'
+  kubernetesServiceConnection: '588f9a85-06f4-456b-9492-eef22e638f92'
   # Docker repository image full path
   imageRepositoryFullPath: 'aksdockersample/aks-docker-sample'
   # docker file path in the github repo
