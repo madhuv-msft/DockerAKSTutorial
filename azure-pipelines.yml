@@ -55,7 +55,7 @@ stages:
   - deployment: Deploy
     displayName: Deploy job
     # can not w euse variables?
-    environment: 'Madhuv-Play.default'
+    environment: 'Madhuv-Play.log'
     strategy:
       runOnce:
         deploy:
